@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "parcel": "^2.9.1"
+  },
+"scripts": {
+    "parcel-build": "parcel build index.html && cp _redirects ./dist/",
+    "serve": "parcel index.html"
+  }
+}
