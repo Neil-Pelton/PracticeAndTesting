@@ -8,6 +8,7 @@
 .content{
   padding: 13px 16px;
   display: flex;
+  justify-content: space-between;
   border: 2px solid #eae2e1;
   border-radius: 5px;
   cursor: pointer;
@@ -37,9 +38,6 @@
 }
 .numb.heart-active:before{
   content: '13';
-  color: #000;
-}
-.text.heart-active{
   color: #000;
 }
 .heart.heart-active{
